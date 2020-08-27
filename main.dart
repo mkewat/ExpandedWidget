@@ -8,19 +8,19 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: PlaceHolder(),
+      home: MyAppHome(),
     );
   }
 }
 
-class PlaceHolder extends StatefulWidget {
+class MyAppHome extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
-    return PlaceHolderState();
+    return MyAppHomeState();
   }
 }
 
-class PlaceHolderState extends State<PlaceHolder> {
+class MyAppHomeState extends State<MyAppHome> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
