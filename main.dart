@@ -33,12 +33,27 @@ class PlaceHolderState extends State<PlaceHolder> {
             child: ListView(
               children: [
                 Container(
-                  child: Text('01'),
+                  height: 100.0,
+                  color: Colors.orange,
+                  margin: EdgeInsets.all(10),
                 ),
-                Image.network(
-                    'https://cdn.pixabay.com/photo/2020/05/02/08/31/almonds-5120350_960_720.jpg'),
-                Image.network(
-                    'https://cdn.pixabay.com/photo/2020/05/02/08/31/almonds-5120350_960_720.jpg'),
+                Container(
+                  height: 100.0,
+                  color: Colors.purple,
+                  margin: EdgeInsets.all(10),
+                ),
+                Container(
+                  margin: EdgeInsets.all(10),
+                  child: Image.network(
+                    'https://cdn.pixabay.com/photo/2020/05/02/08/31/almonds-5120350_960_720.jpg',
+                  ),
+                ),
+                Container(
+                  margin: EdgeInsets.all(10),
+                  child: Image.network(
+                    'https://cdn.pixabay.com/photo/2020/05/02/08/31/almonds-5120350_960_720.jpg',
+                  ),
+                ),
               ],
             ),
           ),
